@@ -66,18 +66,18 @@ We selected this algorithm because it is widly employed in solving scheduling pr
  When executing the command  ``python project.py``, the user will be greeted with the following interface:
 
   **Dark mode**:
-![interface-dark-mode](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/a1203c28-5bd0-4bb6-b738-0477f010fb18)
+![interface-dark-mode](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/68d43e9e-428e-439b-b439-582b7646d6f1)
  
 **Light mode**:
 
-![interface-light-mode](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/bd301809-1814-42a3-acfe-193d9a0b8d7e)
+![interface-light-mode](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/bcb4c68b-19e2-412a-a3dd-08c7b9346310)
 
 > [!NOTE]
 > The type of interface displayed depends on whether the user's operating system has dark mode activated or not.
 
 In the **departement** section, the user must provide a departement name to which the different classes belong.
 
-![departement-input](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/4516f232-0270-4be6-a6ca-f3a25a3fe276)
+![departement-input](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/a00ae6de-0cfc-4fe4-946f-52544538e765)
 
 
 > [!IMPORTANT]
@@ -85,7 +85,7 @@ In the **departement** section, the user must provide a departement name to whic
 
 In the **semester** section, the user must provide the semester value.
 
-![semester-input](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/98b8d3b7-8f4f-4067-889c-8088a2a067df)
+![semester-input](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/a267fb92-2cfb-4d61-8e9c-3ae96075fdb8)
 
 
 > [!IMPORTANT]
@@ -93,7 +93,7 @@ In the **semester** section, the user must provide the semester value.
 
 For the **Start date** and **End date** sections, the user must specify the start and end of the week for which they want to generate a timetable.
 
-![start-end-date-input](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/a157d4b9-dcac-4f8e-afa2-495cc4c27f60)
+![start-end-date-input](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/49b14f1c-2b02-441d-9a32-ff7bb351de63)
 
 > [!IMPORTANT]
 > When selecting the start and end dates, the user must adhere to these rules:
@@ -104,7 +104,7 @@ For the **Start date** and **End date** sections, the user must specify the star
 
 The user can then select the various **courses**, **professors** and **classrooms** to be used in the creation of the timetables.
  
-![prof-course-classrooms-selection](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/95b2cf50-f3eb-45d9-9ded-5a22ccccb1f9)
+![prof-course-classrooms-selection](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/a53508bc-7548-4083-840b-2308d5d7eac3)
 
 
 The application also provides the possibility of removing specific values. This can be done by clicking on the red button next to a specific value.
@@ -114,7 +114,7 @@ The application also provides the possibility of removing specific values. This 
 
 In addition to that, the user can also add news values to the application, by typing them into the input section situated bellow the scrolling list of checkboxes and pressing the add button.
  
- ![prof-course-classrooms-add-value](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/d733597f-b627-4599-84a3-1027545bc8ad)
+ ![prof-course-classrooms-add-value](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/0a5eb0aa-f091-4ac9-8757-cd033fcc5c29)
 
 
 > [!IMPORTANT]
@@ -123,12 +123,12 @@ In addition to that, the user can also add news values to the application, by ty
 
 The user then needs to specifiy the number of classes for which they want to generate their respective timetables.
 
-![number-of-classes-input](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/1c5bdc73-376b-4580-86a2-d1d973cb9693)
+![number-of-classes-input](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/022ee638-6e9c-40ff-a167-8afbafea790c)
 
 Once all the required fields all filled, the user can click on the **Generate** button to generate the requested timetables. These tables will be stored inside a docx file.
 The following image is an example of a custom timetable generated for **Class1** using the application:
 
-![timetable-output](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/78e17fd2-e9d6-403c-8676-c89b6845d96b)
+![timetable-output](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/0cca382e-8cba-4d50-af0a-6eaacd5a8046)
    
 
 ## Functioning
@@ -138,7 +138,7 @@ Besides the **main** function, this project is mainly composed of **8** classes,
 This file contains all the classes needed for the creation of GUI. Most of these classes are created using the **Tkinter** and **CustomTkinter** framework in an attempt to create an easy-to-use interactive graphical user interface.
 
 The image below provides a comprehensive overview of the different classes utilised in creating the graphical user interface (GUI) for the application:
-![interface_classes_names](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/c03f088c-00ea-4038-b005-60a108b25f40)
+![interface_classes_names](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/f3e98e9a-b69a-49f3-b3d7-c1afe39cbad0)
 
 
 
@@ -455,7 +455,7 @@ Essentially, the system takes a template docx file and generates a new docx file
 
 To generate our timetables, we opted to use the following template:
 
-![timetable-template](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/f91f8001-fccd-4697-81bc-363dc364d019)
+![timetable-template](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/f7a0268d-a3d7-4c11-bb58-671c2702a426)
 
 This template consists of two main sections:
 * **The header section**: located at the top of the template, this section contains general informations such as **the departement name**,**class number**, **semester **,etc.
@@ -523,7 +523,7 @@ This file contains the primary implementation of the **Backtracking** algorithm,
 
 The following image represents an empty timetable matrix.
 
-![matrix-example](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/81b246a5-4c12-4ff2-b88d-68bf8cd32453)
+![matrix-example](https://github.com/MohamedHelali/Schedule-generator/assets/155182909/39befae7-819c-4249-aed5-129e820b3e0c)
 
 * **find_empty**(matrix): This function returns a tuple containing the coordinates of the first empty cell within the timetable matrix.
 * **Parameters**:

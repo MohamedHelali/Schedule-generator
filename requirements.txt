@@ -1,0 +1,6 @@
+python-docx==1.1.0
+pytest==8.0.0
+customtkinter==5.2.2
+CTkMessagebox==2.5
+tkcalendar==1.6.1
+darkdetect==0.8.0

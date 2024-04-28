@@ -16,6 +16,7 @@ Project structure :
 * table.py
 * test_course.py
 * test_databse.py
+* test_project.py
 * TimeTable.docx (timetable template)
 * university.db (database file)
 
